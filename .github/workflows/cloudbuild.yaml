@@ -30,5 +30,8 @@ steps:
 images:
   - 'africa-south1-docker.pkg.dev/$PROJECT_ID/marketmint-frontend-repo/marketmint-ui:$COMMIT_SHA'
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 substitutions:
   _REGION: 'africa-south1'
