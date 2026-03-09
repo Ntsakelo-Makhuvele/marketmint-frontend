@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
-import Dashboard from "./pages/dashboard.tsx"
+import UserDashboard from "./pages/UserDashboard"
+
 
 
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<UserDashboard />} />
       </Routes>
   )
 }

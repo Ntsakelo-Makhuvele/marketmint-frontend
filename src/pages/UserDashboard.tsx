@@ -1,6 +1,4 @@
-
-
-const Dashboard = () => {
+const UserDashboard = () => {
     return (
         <div className="">
                I am the dashboard
@@ -8,4 +6,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard;
+export default UserDashboard;
