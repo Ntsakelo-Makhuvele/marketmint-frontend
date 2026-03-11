@@ -1,17 +1,30 @@
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-base{
   :root{
     --primary-color:#12201A;
     --cta-color:#A8F0D0;
     --text-secondary:#E2E8F0;
+    /* --border: #6e6e6e; */
+    --border:#6a7c74;
+    --fill: #2A3731;
+    --text-descrption:#94A3B8;
+    --cta-fill:rgba(168, 240, 208, 0.1);
+    --transparent-fill:rgba(0, 0, 0, 0.4);
+    --card-fill:#1A2E26;
+   
   }
-}
 
 @theme{
-  --color-primary:var(--primary-color);
+  --color-background:var(--primary-color);
+  --color-border:var(--border);
+  --color-secondary-text:var(--text-secondary);
+  --color-fill:var(--fill);
+  --color-description-text:var(--text-descrption);
+  --color-cta-text:var(--cta-color);
+  --color-cta-fill:var(--cta-fill);
+  --color-transparent-fill:var(--transparent-fill);
+  --color-card-fill:var(--card-fill);
+  --color-response-fill:var(--fill);
+  --color-message-fill:var(--cta-fill);
 }
