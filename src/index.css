@@ -12,6 +12,7 @@
     --cta-fill:rgba(168, 240, 208, 0.1);
     --transparent-fill:rgba(0, 0, 0, 0.4);
     --card-fill:#1A2E26;
+    --asset-description-fill:rgba(30, 41, 59, 1);
    
   }
 
@@ -27,4 +28,5 @@
   --color-card-fill:var(--card-fill);
   --color-response-fill:var(--fill);
   --color-message-fill:var(--cta-fill);
+  --color-asset-description-fill:var(--asset-description-fill);
 }
