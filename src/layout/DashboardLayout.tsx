@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 
 
+
 const MobileMenuDrawer = () => {
    const [open, setOpen] = useState(false);
    
@@ -55,7 +56,7 @@ const DashboardLayout = () => {
    return (
       <div className="">
          <div className="grid md:grid-cols-12 gap-6 grid-cols-1">
-            <div className="2xl:col-span-2 md:col-span-3 h-[100vh] border bg-background p-5 hidden md:grid">
+            <div className="2xl:col-span-2 md:col-span-3 min-h-[100vh] h-full border bg-background p-5 hidden md:grid fixed top-0 right-0 left-0 w-[300px]">
                <div>
                <div className='h-10 mb-10 '>
 
@@ -88,9 +89,9 @@ const DashboardLayout = () => {
             <div className="p-2 block md:hidden bg-background">
                <MobileMenuDrawer />
             </div>
-         </div>
          <div className='md:col-span-9 2xl:col-span-10'>
             <Outlet />
+         </div>
          </div>
       </div>
 
