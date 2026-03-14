@@ -10,10 +10,12 @@
     --fill: #2A3731;
     --text-descrption:#94A3B8;
     --cta-fill:#a8f0d01a;
+    /* --cta-fill-2:rgba(168, 240, 208, 0.1); */
     --cta-fill-2:rgba(168, 240, 208, 0.1);
     --transparent-fill:rgba(0, 0, 0, 0.4);
     --card-fill:#4c6b5e;
     --asset-description-fill:rgba(30, 41, 59, 1);
+    --table-border:#c1cdc8;
    
   }
 
@@ -30,5 +32,6 @@
   --color-response-fill:var(--fill);
   --color-message-fill:var(--cta-fill);
   --color-asset-description-fill:var(--asset-description-fill);
-  --color-cta-fill-2:var(--cta-fill-2)
+  --color-cta-fill-2:var(--cta-fill-2);
+  --color-table-border:var(--table-border)
 }

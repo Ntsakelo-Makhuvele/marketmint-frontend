@@ -89,7 +89,7 @@ const DashboardLayout = () => {
             <div className="p-2 block md:hidden bg-background">
                <MobileMenuDrawer />
             </div>
-         <div className='md:col-span-9 2xl:col-span-10'>
+         <div className='md:col-span-9 2xl:col-span-10 md:ml-[310px] w-full'>
             <Outlet />
          </div>
          </div>

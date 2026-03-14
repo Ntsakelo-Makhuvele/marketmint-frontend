@@ -53,7 +53,7 @@ const Assets = () => {
     };
 
     return (
-        <div className="relative w-[100%] md:ml-[310px] min-h-[100vh] h-[100%]">
+        <div className="relative  min-h-[100vh] h-[100%]">
            <DashboardHead />
             <div className='absolute mt-20 w-full'>
                 <p className='pl-3 mt-5 text-2xl'>Brand Media</p>
