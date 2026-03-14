@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import Dialog, { type DialogProps } from '@mui/material/Dialog';
+import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import { ChevronsUpDown, Check, X } from 'lucide-react'
 import DialogTitle from '@mui/material/DialogTitle';
@@ -40,8 +40,8 @@ const assets: Asset[] = [
 const CampaignDialog = () => {
     const [query, setQuery] = useState('');
     const [open, setOpen] = useState(false);
-    const [fullWidth, setFullWidth] = useState(true);
-    const [maxWidth, setMaxWidth] = useState<DialogProps['maxWidth']>('md');
+    // const [fullWidth, setFullWidth] = useState(true);
+    // const [maxWidth, setMaxWidth] = useState<DialogProps['maxWidth']>('md');
     const [selected, setSelected] = useState(tones[2]);
     const [selectedAssets, setSelectedAssets] = useState<any[]>([]);
 
@@ -68,8 +68,8 @@ const CampaignDialog = () => {
         <>
             <button className="float-right mt-5 mr-5 p-1 px-2 rounded-lg bg-cta-text font-semibold cursor-pointer" onClick={handleClickOpen}>Create Campaign</button>
             <Dialog
-                fullWidth={fullWidth}
-                maxWidth={maxWidth}
+                fullWidth={true}
+                maxWidth={'md'}
                 open={open}
                 onClose={handleClose}
             >
