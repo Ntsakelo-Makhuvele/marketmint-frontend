@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { createTheme, ThemeProvider } from '@mui/material';
 import photo from '../assets/Container.png'
 import DashboardHead from '../components/ui/DashboardHead';
+import AssetDialog from '../components/ui/AssetDialog';
 
 const theme = createTheme({
     palette: {
@@ -56,8 +57,10 @@ const Assets = () => {
         <div className="relative  min-h-[100vh] h-[100%]">
            <DashboardHead />
             <div className='absolute mt-20 w-full'>
-                <p className='pl-3 mt-5 text-2xl'>Brand Media</p>
-                <p className="pl-3 text-lg">Manage and organize your visual brand assets for The Cupcake Corner.</p>
+                <div className="inline-block mt-5">
+                 <p className='pl-3 text-2xl'>Brand Media</p>
+                </div>
+                <AssetDialog />
                 <div className='w-[100%] mt-5'>
                     <ThemeProvider theme={theme}>
                         <Box sx={{ width: '100%' }}>

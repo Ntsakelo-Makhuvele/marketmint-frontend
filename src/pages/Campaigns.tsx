@@ -4,7 +4,9 @@ import CampaignDialog from "../components/ui/CampaignDialog";
 
 
 
+
 const Campaigns = () => {
+  
     return (
         <div className="relative  min-h-[100vh] h-[100%]">
             <DashboardHead />
@@ -13,7 +15,7 @@ const Campaigns = () => {
                  <p className='pl-3 text-2xl'>Campaigns</p>
                 </div>
                 <CampaignDialog />
-                 <div className="mt-5 overflow-x-auto">
+                  <div className="mt-5 overflow-x-auto">
                    <table className="w-full min-w-[700px] text-center ">
                         <thead>
                             <tr className="border-b border-b-table-border">

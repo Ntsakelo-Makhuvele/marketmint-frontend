@@ -102,7 +102,7 @@ const CampaignDialog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='mb-5'>
+                           <div className='mb-5'>
                                 <Listbox value={selected} onChange={setSelected}>
                                     <Label className="block text-sm/6 font-medium text-gray-900">Tone</Label>
                                     <div className="relative mt-2">
@@ -127,7 +127,7 @@ const CampaignDialog = () => {
                                                     className="group relative cursor-default py-2 pr-9 pl-3 text-gray-900 select-none data-focus:bg-cta-text data-focus:text-background data-focus:outline-hidden"
                                                 >
                                                     <div className="flex items-center">
-                                                        <span className="ml-3 block truncate font-normal group-data-selected:font-semibold">{tone}</span>
+                                                        <span className="ml-3 block truncate  font-normal group-data-selected:font-semibold">{tone}</span>
                                                     </div>
 
                                                     {/* <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600 group-not-data-selected:hidden group-data-focus:text-white">
