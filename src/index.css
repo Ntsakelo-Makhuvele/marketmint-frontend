@@ -16,6 +16,7 @@
     --card-fill:#4c6b5e;
     --asset-description-fill:rgba(30, 41, 59, 1);
     --table-border:#c1cdc8;
+    --transparent-fill-2:rgba(0, 0, 0, 0.7);
    
   }
 
@@ -33,5 +34,6 @@
   --color-message-fill:var(--cta-fill);
   --color-asset-description-fill:var(--asset-description-fill);
   --color-cta-fill-2:var(--cta-fill-2);
-  --color-table-border:var(--table-border)
+  --color-table-border:var(--table-border);
+   --color-transparent-fill-play:var(--transparent-fill-2);
 }
