@@ -1,16 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
+:root{
+  --font-family-italic: 'Roboto', sans-serif
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
 
-  :root{
+@font-face {
+  font-family: 'RobotoItalic';
+  src: url('./assets/fonts/Roboto-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('./assets/fonts/Roboto-Light.ttf');
+}
+
+@theme{
+  --font-roboto-italic: RobotoItalic;
+  --font-roboto-regular: Roboto;
+  --font-roboto-light:RobotoLight
+
+}
+  /* :root{
     --primary-color:#12201A;
     --cta-color:#A8F0D0;
     --text-secondary:#E2E8F0;
-    /* --border: #6e6e6e; */
     --border:#6a7c74;
     --fill: #2A3731;
     --text-descrption:#94A3B8;
     --cta-fill:#a8f0d01a;
-    /* --cta-fill-2:rgba(168, 240, 208, 0.1); */
     --cta-fill-2:rgba(168, 240, 208, 0.1);
     --transparent-fill:rgba(0, 0, 0, 0.4);
     --card-fill:#4c6b5e;
@@ -36,4 +59,4 @@
   --color-cta-fill-2:var(--cta-fill-2);
   --color-table-border:var(--table-border);
    --color-transparent-fill-play:var(--transparent-fill-2);
-}
+} */

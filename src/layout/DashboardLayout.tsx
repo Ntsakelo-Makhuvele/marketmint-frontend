@@ -55,7 +55,7 @@ const DashboardLayout = () => {
    return (
       <div className="">
          <div className="grid md:grid-cols-12 gap-6 grid-cols-1">
-            <div className="2xl:col-span-2 md:col-span-3 min-h-[100vh] h-full p-5 hidden md:grid fixed top-0 right-0 left-0 w-[300px] bg-mist-100">
+            <div className="2xl:col-span-2 md:col-span-3 min-h-[100vh] h-full p-5 hidden md:grid fixed top-0 right-0 left-0 w-[300px] bg-background">
                <div>
                <div className='h-10 mb-10 '>
 

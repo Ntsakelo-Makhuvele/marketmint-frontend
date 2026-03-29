@@ -56,7 +56,7 @@ const Assets = () => {
     return (
         <div className="relative  min-h-[100vh] h-[100%]">
            <DashboardHead />
-            <div className='absolute mt-20 w-full'>
+            <div className='absolute md:mt-20 w-full'>
                 <div className="inline-block mt-5">
                  <p className='pl-3 text-2xl'>Brand Media</p>
                 </div>
